@@ -60,7 +60,7 @@
                             </strong>
                         </td>
                         <td class="auto-style10">
-                            <asp:Image ID="Image2" runat="server" Height="30px" ImageUrl="~/ikonlar/delete.png" Width="30px" />
+                            <a href="Kategoriler.aspx?Kategoriid=<%#Eval("Kategoriid")%> &islem=sil"> <asp:Image ID="Image2" runat="server" Height="30px" ImageUrl="~/ikonlar/delete.png" Width="30px" /></a>
                         </td>
                         <td class="auto-style10">
                             <a href="KategoriDuzenle.aspx?Kategoriid=<%#Eval("Kategoriid") %>"> <asp:Image ID="Image3" runat="server" Height="30px" ImageUrl="~/ikonlar/refresh.png" Width="30px"/></a>
