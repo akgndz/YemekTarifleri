@@ -14,7 +14,7 @@
             </ItemTemplate>
         </asp:DataList>
     </p>
-    <asp:Image ID="Image1" runat="server" Height="151px" ImageUrl="~/resimler/images.png" Width="434px" />
+    <asp:Image ID="Image1" runat="server" Height="171px" ImageUrl="~/resimler/images.png" Width="434px" />
 </asp:Content>
 <asp:Content ID="Content3" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
 </asp:Content>
