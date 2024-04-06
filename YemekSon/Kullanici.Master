@@ -20,6 +20,10 @@
         .auto-style3 {
             font-size: large;
         }
+        .auto-style4 {
+            width: 700px;
+            height: 20px;
+        }
     </style>
 </head>
 <body>
@@ -38,7 +42,7 @@
                 </tr>
             </table>
         </div>
-        <div style="margin-left: 400px; width: 700px; height: 20px;">&nbsp;</div>
+        <div style="margin-left: 400px; " class="auto-style4">&nbsp;</div>
         <div style="margin-left: 400px; width: 700px; height: 322px;">
 
                     <div style="width: 215px; float:left; height: auto; background-color:#a74444; margin-left:0px;">
@@ -47,9 +51,11 @@
                         <asp:DataList ID="DataList1" runat="server" Width="202px">
                             <ItemTemplate>
                                 <div style="border: thin solid #CCCCCC">
+                                    <a href="KategoriDetay.aspx?Kategoriid=<%#Eval("Kategoriid") %> ">  <strong>
                                     <asp:Label ID="Label1" runat="server" Text='<%# Eval("KategoriAd") %>'></asp:Label>
-                                    &nbsp;(<asp:Label ID="Label2" runat="server" Text='<%# Eval("KategoriAdet") %>'></asp:Label>
-                                    )</div>
+                                    </strong> </a>
+                                    &nbsp;(<strong><asp:Label ID="Label2" runat="server" Text='<%# Eval("KategoriAdet") %>'></asp:Label>
+                                    </strong>)</div>
                             </ItemTemplate>
                         </asp:DataList>
                         <br />
