@@ -210,6 +210,13 @@
     <Compile Include="YemekDetay.aspx.designer.cs">
       <DependentUpon>YemekDetay.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Yemekler.aspx.cs">
+      <DependentUpon>Yemekler.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Yemekler.aspx.designer.cs">
+      <DependentUpon>Yemekler.aspx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Content Include="Admin.aspx" />
@@ -262,6 +269,7 @@
     <Content Include="AnaSayfa.aspx" />
     <Content Include="YemekDetay.aspx" />
     <Content Include="Admin.Master" />
+    <Content Include="Yemekler.aspx" />
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
     <Content Include="Scripts\jquery-3.4.1.js" />
     <Content Include="Scripts\jquery-3.4.1.min.js" />
