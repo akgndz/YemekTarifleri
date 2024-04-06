@@ -27,11 +27,16 @@
             border: 2px solid #456879;
             border-radius: 10px;
         }
+        .auto-style12 {
+            width: 433px;
+            float: left;
+            height: 19px;
+            background-color: #CCCCCC;
+        }
     </style>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder2" runat="server">
-    <div _designerregion="0">
-        <strong>
+    <strong>
         <asp:Label ID="Label8" runat="server" CssClass="auto-style8" Text="Label"></asp:Label>
         </strong>
         <br />
@@ -53,8 +58,7 @@
                 </table>
             </ItemTemplate>
         </asp:DataList>
-    </div>
-    <div class="auto-style5">YORUM YAPMA PANELİ</div>
+    <div class="auto-style12">YORUM YAPMA PANELİ</div>
     <table class="auto-style1">
         <tr>
             <td>&nbsp;</td>
