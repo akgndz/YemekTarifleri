@@ -14,8 +14,7 @@
             height: 30px;
         }
     .auto-style7 {
-        width: 181px;
-        text-align: right;
+        width: 700px;
         height: 29px;
     }
     .auto-style8 {
@@ -24,6 +23,34 @@
         .auto-style10 {
             border: 2px solid #456879;
             border-radius: 10px;
+        }
+        .auto-style11 {
+            width: 700px;
+            height: 20px;
+        }
+        .auto-style12 {
+            width: 700px;
+            float: left;
+            height: 63px;
+        }
+        .auto-style13 {
+            height: 30px;
+        }
+        .auto-style14 {
+            width: 700px;
+            float: left;
+            height: 30px;
+        }
+        .auto-style15 {
+            height: 34px;
+        }
+        .auto-style16 {
+            width: 700px;
+            float: left;
+            height: 34px;
+        }
+        .auto-style17 {
+            height: 63px;
         }
     </style>
 </asp:Content>
@@ -35,18 +62,18 @@
         <td class="auto-style6" colspan="2"><em><strong>MESAJ PANELİ</strong></em></td>
     </tr>
     <tr>
-        <td class="auto-style4">&nbsp;</td>
+        <td class="auto-style11">&nbsp;</td>
         <td>&nbsp;</td>
     </tr>
     <tr>
-        <td class="auto-style5"><strong>Ad Soyad:</strong></td>
-        <td>
+        <td class="auto-style14"><strong>Ad Soyad:</strong></td>
+        <td class="auto-style13">
             <asp:TextBox ID="TxtGonderen" runat="server" CssClass="tb5"></asp:TextBox>
         </td>
     </tr>
     <tr>
-        <td class="auto-style5"><strong>Mail Adresiniz:</strong></td>
-        <td>
+        <td class="auto-style16"><strong>Mail Adresiniz:</strong></td>
+        <td class="auto-style15">
             <asp:TextBox ID="TxtMail" runat="server" CssClass="tb5"></asp:TextBox>
         </td>
     </tr>
@@ -57,13 +84,13 @@
         </td>
     </tr>
     <tr>
-        <td class="auto-style5"><strong>Mesaj:</strong></td>
-        <td>
+        <td class="auto-style12"><strong>Mesaj:</strong></td>
+        <td class="auto-style17">
             <asp:TextBox ID="TxtMesaj" runat="server" Height="100px" CssClass="tb5" TextMode="MultiLine"></asp:TextBox>
         </td>
     </tr>
     <tr>
-        <td class="auto-style4">&nbsp;</td>
+        <td class="auto-style11">&nbsp;</td>
         <td><strong>
             <asp:Button ID="Button1" runat="server" CssClass="auto-style10" Text="GÖNDER" Width="234px" Height="30px" OnClick="Button1_Click1" />
             </strong></td>

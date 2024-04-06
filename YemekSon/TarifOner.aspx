@@ -11,18 +11,29 @@
         height: 29px;
     }
     .auto-style6 {
-        height: 29px;
+        height: 22px;
     }
         .auto-style8 {
             border: 2px solid #456879;
             border-radius: 10px;
+        }
+        .auto-style9 {
+            width: 44%;
+            height: 246px;
+        }
+        .auto-style10 {
+            text-align: right;
+            font-weight: bold;
+            height: 22px;
+            width: 433px;
+            float: left;
         }
     </style>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
 </asp:Content>
 <asp:Content ID="Content3" runat="server" contentplaceholderid="ContentPlaceHolder2">
-    <table class="auto-style1">
+    <table class="auto-style9">
     <tr>
         <td>&nbsp;</td>
         <td>&nbsp;</td>
@@ -46,9 +57,9 @@
         </td>
     </tr>
     <tr>
-        <td class="auto-style5">Resim:</td>
+        <td class="auto-style10">Resim:</td>
         <td class="auto-style6">
-            <asp:FileUpload ID="FileUpload1" runat="server" Width="200px" CssClass="tb5" />
+            <asp:FileUpload ID="FileUpload1" runat="server" Width="200px" CssClass="tb5" style="margin-left: 0px" />
         </td>
     </tr>
     <tr>

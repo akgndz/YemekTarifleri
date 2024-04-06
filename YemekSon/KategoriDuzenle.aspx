@@ -39,7 +39,7 @@
         <tr>
             <td class="auto-style9"></td>
             <td class="auto-style9">
-                <asp:Button ID="Button1" runat="server" CssClass="auto-style11" Text="Güncelle" Width="170px" />
+                <asp:Button ID="Button1" runat="server" CssClass="auto-style11" OnClick="Button1_Click" Text="Güncelle" Width="170px" />
             </td>
         </tr>
     </table>

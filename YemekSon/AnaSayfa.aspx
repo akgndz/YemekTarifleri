@@ -8,6 +8,15 @@
         .auto-style5 {
             font-size: x-large;
         }
+        .auto-style6 {
+            width: 700px;
+            height: 35px;
+            background-color: #CCCCCC;
+        }
+        .auto-style7 {
+            font-size: x-large;
+            float: left;
+        }
     </style>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
@@ -17,11 +26,11 @@
         <ItemTemplate>
             <table class="auto-style1">
                 <tr>
-                    <td class="auto-style4"><strong>
+                    <td class="auto-style6"><strong>
 
 
                         
-                        <a href="YemekDetay.aspx?Yemekid=<%#Eval("Yemekid") %>">  <asp:Label ID="Label3" runat="server" CssClass="auto-style5" Text='<%# Eval("YemekAd") %>'></asp:Label></a>
+                        <a href="YemekDetay.aspx?Yemekid=<%#Eval("Yemekid") %>">  <asp:Label ID="Label3" runat="server" CssClass="auto-style7" Text='<%# Eval("YemekAd") %>' Height="16px"></asp:Label></a>
                         </strong></td>
 
 
