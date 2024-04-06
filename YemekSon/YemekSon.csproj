@@ -166,6 +166,13 @@
     <Compile Include="KategoriDetay.aspx.designer.cs">
       <DependentUpon>KategoriDetay.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Kategoriler.aspx.cs">
+      <DependentUpon>Kategoriler.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Kategoriler.aspx.designer.cs">
+      <DependentUpon>Kategoriler.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Kullanici.Master.cs">
       <DependentUpon>Kullanici.Master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -229,8 +236,11 @@
     <Content Include="Content\Site.css" />
     <Content Include="GununYemegi.aspx" />
     <Content Include="Hakkimizda.aspx" />
+    <Content Include="ikonlar\delete.png" />
+    <Content Include="ikonlar\refresh.png" />
     <Content Include="iletisim.aspx" />
     <Content Include="KategoriDetay.aspx" />
+    <Content Include="Kategoriler.aspx" />
     <Content Include="Kullanici.css" />
     <Content Include="resimler\images.png" />
     <Content Include="resimler\istockphoto-607960288-612x612.jpg" />
