@@ -90,21 +90,23 @@
                 <td>&nbsp;</td>
             </tr>
             <tr>
-                <td>KATEGORİ AD:</td>
+                <td><strong>KATEGORİ AD:</strong></td>
                 <td>
                     <asp:TextBox ID="TextBox1" runat="server"></asp:TextBox>
                 </td>
             </tr>
             <tr>
-                <td>KATEGORİ İKON:</td>
+                <td><strong>KATEGORİ İKON:</strong></td>
                 <td>
-                    <asp:TextBox ID="TextBox2" runat="server"></asp:TextBox>
+                    <asp:FileUpload ID="FileUpload1" runat="server" Width="249px" />
                 </td>
             </tr>
             <tr>
                 <td>&nbsp;</td>
                 <td>
-                    <asp:Button ID="Button5" runat="server" Text="Ekle" Width="168px" />
+                    <strong>
+                    <asp:Button ID="BtnEkle" runat="server" CssClass="auto-style17" OnClick="BtnEkle_Click" Text="Ekle" Width="168px" />
+                    </strong>
                 </td>
             </tr>
         </table>
