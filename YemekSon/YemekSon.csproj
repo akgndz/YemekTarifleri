@@ -184,6 +184,14 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Banner Foto\images.jpeg" />
+    <Content Include="Banner Foto\istockphoto-1428412216-612x612.jpg" />
+    <Content Include="Banner Foto\istockphoto-584228482-2048x2048.jpg" />
+    <Content Include="Banner Foto\sushi-8113165_640.jpg" />
+    <Content Include="Banner Foto\WhatsApp Görsel 2024-04-06 saat 20.43.20_7a0bf435.jpg" />
+    <Content Include="Banner Foto\WhatsApp Görsel 2024-04-06 saat 20.44.34_39e0e53d.jpg" />
+    <Content Include="Banner Foto\yemek-fotografi-cekimi.jpg" />
+    <Content Include="Banner Foto\yemek-fotografi-nasil-cekilir-manset.jpg" />
     <Content Include="Content\bootstrap-grid.css" />
     <Content Include="Content\bootstrap-grid.min.css" />
     <Content Include="Content\bootstrap-grid.rtl.css" />

@@ -29,6 +29,7 @@
 <body>
     <form id="form1" runat="server">
         <div style="height: 150px; width: 701px; margin-left: 400px; background-color: #a74444;">
+            <asp:Image ID="Image1" runat="server" EnableViewState="False" Height="167px" ImageUrl="~/Banner Foto/WhatsApp Görsel 2024-04-06 saat 20.44.34_39e0e53d.jpg" Width="699px" />
         </div>
         <div style="margin-left: 400px; width: 700px; height: 20px;">&nbsp;</div>
         <div style="margin-left: 400px; width: 700px; height: 30px; background-color: #fff; font-weight: 700;">
