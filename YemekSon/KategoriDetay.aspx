@@ -2,10 +2,6 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
     <style type="text/css">
 
-        .auto-style4 {
-            height: 26px;
-            background-color: #CCCCCC;
-        }
         .auto-style5 {
             font-size: x-large;
         }

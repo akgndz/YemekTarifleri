@@ -117,6 +117,20 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Admin.aspx.cs">
+      <DependentUpon>Admin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin.aspx.designer.cs">
+      <DependentUpon>Admin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin.Master.cs">
+      <DependentUpon>Admin.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin.Master.designer.cs">
+      <DependentUpon>Admin.Master</DependentUpon>
+    </Compile>
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
@@ -184,9 +198,11 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Admin.aspx" />
     <Content Include="Banner Foto\images.jpeg" />
     <Content Include="Banner Foto\istockphoto-1428412216-612x612.jpg" />
     <Content Include="Banner Foto\istockphoto-584228482-2048x2048.jpg" />
+    <Content Include="Banner Foto\log.jpg" />
     <Content Include="Banner Foto\sushi-8113165_640.jpg" />
     <Content Include="Banner Foto\WhatsApp Görsel 2024-04-06 saat 20.43.20_7a0bf435.jpg" />
     <Content Include="Banner Foto\WhatsApp Görsel 2024-04-06 saat 20.44.34_39e0e53d.jpg" />
@@ -227,6 +243,7 @@
     <Content Include="Kullanici.Master" />
     <Content Include="AnaSayfa.aspx" />
     <Content Include="YemekDetay.aspx" />
+    <Content Include="Admin.Master" />
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
     <Content Include="Scripts\jquery-3.4.1.js" />
     <Content Include="Scripts\jquery-3.4.1.min.js" />
