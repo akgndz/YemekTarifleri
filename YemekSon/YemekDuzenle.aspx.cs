@@ -30,7 +30,33 @@ namespace YemekSon
 
                 }
                 bgl.baglanti().Close();
+
+
+                if (Page.IsPostBack == false)
+                {
+                    //kategori listesi
+                    SqlCommand komut2 = new SqlCommand("Select * From Tbl_Kategoriler", bgl.baglanti());
+                    SqlDataReader dr2 = komut2.ExecuteReader();
+                    DropDownList1.DataTextField = "KategoriAd";
+                    DropDownList1.DataValueField = "Kategoriid";
+
+                    DropDownList1.DataSource = dr2;
+                    DropDownList1.DataBind();
+                }
             }
+        }
+
+        protected void Button1_Click(object sender, EventArgs e)
+        {
+            SqlCommand komut = new SqlCommand("update Tbl_Yemekler set yemekad=@p1,yemekmalzeme=@p2,yemektarif=@p3,kategoriid=@p4 where yemekid=@p3", bgl.baglanti());
+            komut.Parameters.AddWithValue("@p1", TextBox1.Text);
+            komut.Parameters.AddWithValue("@p2", TextBox2.Text);
+            komut.Parameters.AddWithValue("@p3", TextBox1.Text);
+            komut.Parameters.AddWithValue("@p4", DropDownList1.SelectedValue);
+            komut.Parameters.AddWithValue("@p5", id);
+            komut.ExecuteNonQuery();
+            bgl.baglanti() .Close();
+
         }
     }
 }
