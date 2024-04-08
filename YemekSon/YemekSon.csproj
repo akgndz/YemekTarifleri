@@ -224,6 +224,13 @@
     <Compile Include="Yemekler.aspx.designer.cs">
       <DependentUpon>Yemekler.aspx</DependentUpon>
     </Compile>
+    <Compile Include="YorumDetay.aspx.cs">
+      <DependentUpon>YorumDetay.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="YorumDetay.aspx.designer.cs">
+      <DependentUpon>YorumDetay.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Yorumlar.aspx.cs">
       <DependentUpon>Yorumlar.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -285,6 +292,7 @@
     <Content Include="Admin.Master" />
     <Content Include="YemekDuzenle.aspx" />
     <Content Include="Yemekler.aspx" />
+    <Content Include="YorumDetay.aspx" />
     <Content Include="Yorumlar.aspx" />
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
     <Content Include="Scripts\jquery-3.4.1.js" />
