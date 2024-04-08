@@ -40,5 +40,17 @@ namespace YemekSon
                 }
             }
         }
+
+        protected void BtnOnayla_Click(object sender, EventArgs e)
+        {
+            SqlCommand komut = new SqlCommand("Update Tbl_Yorumlar set yorumicerik=@p1,yorumonay=@p2 where yorumid=@p3", bgl.baglanti());
+            komut.Parameters.AddWithValue("@p1", Txticerik.Text);
+            komut.Parameters.AddWithValue("@p2", "True");
+            komut.Parameters.AddWithValue("@p3", id);
+            komut.ExecuteNonQuery();
+            bgl.baglanti().Close();
+
+
+        }
     }
 }
