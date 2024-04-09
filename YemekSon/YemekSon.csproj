@@ -187,6 +187,13 @@
     <Compile Include="Kullanici.Master.designer.cs">
       <DependentUpon>Kullanici.Master</DependentUpon>
     </Compile>
+    <Compile Include="Mesajlar.aspx.cs">
+      <DependentUpon>Mesajlar.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Mesajlar.aspx.designer.cs">
+      <DependentUpon>Mesajlar.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="AnaSayfa.aspx.cs">
       <DependentUpon>AnaSayfa.aspx</DependentUpon>
@@ -272,12 +279,14 @@
     <Content Include="GununYemegi.aspx" />
     <Content Include="Hakkimizda.aspx" />
     <Content Include="ikonlar\delete.png" />
+    <Content Include="ikonlar\png-clipart-computer-icons-product-manuals-owner-s-manual-others-miscellaneous-angle.png" />
     <Content Include="ikonlar\refresh.png" />
     <Content Include="iletisim.aspx" />
     <Content Include="KategoriDuzenle.aspx" />
     <Content Include="KategoriDetay.aspx" />
     <Content Include="Kategoriler.aspx" />
     <Content Include="Kullanici.css" />
+    <Content Include="Mesajlar.aspx" />
     <Content Include="resimler\images.png" />
     <Content Include="resimler\istockphoto-607960288-612x612.jpg" />
     <Content Include="Scripts\bootstrap.bundle.js" />
@@ -294,6 +303,7 @@
     <Content Include="Yemekler.aspx" />
     <Content Include="YorumDetay.aspx" />
     <Content Include="Yorumlar.aspx" />
+    <Content Include="ikonlar\i.webp" />
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
     <Content Include="Scripts\jquery-3.4.1.js" />
     <Content Include="Scripts\jquery-3.4.1.min.js" />
