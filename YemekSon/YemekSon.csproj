@@ -217,6 +217,13 @@
       <DependentUpon>AnaSayfa.aspx</DependentUpon>
     </Compile>
     <Compile Include="sqlsinif.cs" />
+    <Compile Include="Tarifler.aspx.cs">
+      <DependentUpon>Tarifler.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Tarifler.aspx.designer.cs">
+      <DependentUpon>Tarifler.aspx</DependentUpon>
+    </Compile>
     <Compile Include="TarifOner.aspx.cs">
       <DependentUpon>TarifOner.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -314,6 +321,7 @@
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Kullanici.Master" />
     <Content Include="AnaSayfa.aspx" />
+    <Content Include="Tarifler.aspx" />
     <Content Include="YemekDetay.aspx" />
     <Content Include="Admin.Master" />
     <Content Include="YemekDuzenle.aspx" />
@@ -322,6 +330,9 @@
     <Content Include="Yorumlar.aspx" />
     <Content Include="ikonlar\i.webp" />
     <Content Include="ikonlar\choose.webp" />
+    <Content Include="resimler\ÖNERİ.webp" />
+    <Content Include="ikonlar\ÖNERİİİ.webp" />
+    <Content Include="ikonlar\önnneri.webp" />
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
     <Content Include="Scripts\jquery-3.4.1.js" />
     <Content Include="Scripts\jquery-3.4.1.min.js" />
