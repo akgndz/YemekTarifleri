@@ -9,7 +9,7 @@
         }
         .auto-style11 {
             font-weight: bold;
-            font-size: large;
+            font-size: medium;
         }
         .auto-style12 {
             font-size: medium;
@@ -52,6 +52,12 @@
             <td class="auto-style9"></td>
             <td class="auto-style9"><strong>
                 <asp:Button ID="Button1" runat="server" CssClass="auto-style11" OnClick="Button1_Click" Text="Güncelle" Width="258px" />
+                </strong></td>
+        </tr>
+        <tr>
+            <td class="auto-style9">&nbsp;</td>
+            <td class="auto-style9"><strong>
+                <asp:Button ID="Button2" runat="server" CssClass="auto-style11" OnClick="Button2_Click" Text="Günün Yemeği Seç" Width="255px" />
                 </strong></td>
         </tr>
     </table>
