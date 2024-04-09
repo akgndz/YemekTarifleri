@@ -30,12 +30,12 @@
             font-size: large;
             text-align: right;
         }
-        .auto-style17 {
-            text-align: right;
-        }
-        .auto-style18 {
-            font-size: large;
-        }
+    .auto-style17 {
+        text-align: right;
+    }
+    .auto-style18 {
+        font-size: large;
+    }
     </style>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder2" runat="server">
