@@ -49,9 +49,15 @@
             </td>
         </tr>
         <tr>
-            <td class="auto-style9"></td>
+            <td class="auto-style9">YEMEK GÖRÜNTÜ:</td>
+            <td class="auto-style9">
+                <asp:FileUpload ID="FileUpload1" runat="server" Width="281px" />
+            </td>
+        </tr>
+        <tr>
+            <td class="auto-style9">&nbsp;</td>
             <td class="auto-style9"><strong>
-                <asp:Button ID="Button1" runat="server" CssClass="auto-style11" OnClick="Button1_Click" Text="Güncelle" Width="258px" />
+                <asp:Button ID="Button3" runat="server" CssClass="auto-style11" OnClick="Button1_Click" Text="Güncelle" Width="258px" />
                 </strong></td>
         </tr>
         <tr>

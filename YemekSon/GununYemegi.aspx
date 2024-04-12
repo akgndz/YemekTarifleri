@@ -14,7 +14,7 @@
             </strong><span class="auto-style3"><strong>Tarif</strong></span><strong>:<asp:Label ID="Label5" runat="server" style="font-size: large" Text='<%# Eval("YemekTarif") %>'></asp:Label>
             </strong>
             <br />
-            <asp:Image ID="Image1" runat="server" Height="196px" ImageUrl="~/resimler/istockphoto-607960288-612x612.jpg" Width="410px" style="text-align: center" />
+            <asp:Image ID="Image1" runat="server" Height="196px" ImageUrl='<%# Eval("YemekResim") %>' Width="410px" style="text-align: center" />
             <br />
             <span class="auto-style3"><strong>Puan</strong></span><strong>:<asp:Label ID="Label6" runat="server" CssClass="auto-style3" Text='<%# Eval("YemekPuan") %>'></asp:Label>
             <br />
